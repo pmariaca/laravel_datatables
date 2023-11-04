@@ -1,0 +1,19 @@
+.btnmin{
+    --bs-btn-padding-y: .1rem; 
+    --bs-btn-padding-x: .5rem; 
+    --bs-btn-font-size: .75rem;
+    width: 68px !important;
+    /* --bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem; */
+}
+
+.accordion-body{
+    padding-bottom: 0px;
+}
+.accordion-item{
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+}
+.contbl{
+    margin-top: 5px !important;
+}
+
