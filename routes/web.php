@@ -23,7 +23,6 @@ Route::controller(BookController::class)->group(function () {
     Route::get('/books/edit/{id}', 'edit')->name('books.edit');
     Route::post('/books/update', 'update')->name('books.update');
     Route::get('/books/destroy/{id}', 'destroy')->name('books.destroy');
-
     // Route::get('/books/show/{id}', 'show')->name('books.show');
 });
 
